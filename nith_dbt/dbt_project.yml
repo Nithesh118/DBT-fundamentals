@@ -40,7 +40,7 @@ models:
       schema: silver
     gold:
       +materialized: table
-      schema: silver
+      schema: gold
 
 seeds:
   nith_dbt:
